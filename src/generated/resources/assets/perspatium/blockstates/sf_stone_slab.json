@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "perspatium:block/sf_stone_slab"
+    },
+    "type=double": {
+      "model": "perspatium:block/sf_stone"
+    },
+    "type=top": {
+      "model": "perspatium:block/sf_stone_slab_top"
+    }
+  }
+}

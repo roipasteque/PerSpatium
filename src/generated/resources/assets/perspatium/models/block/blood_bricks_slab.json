@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "perspatium:block/blood_bricks",
+    "side": "perspatium:block/blood_bricks",
+    "top": "perspatium:block/blood_bricks"
+  }
+}

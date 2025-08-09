@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "perspatium:block/ip_small_stone_bricks"
+  }
+}

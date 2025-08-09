@@ -1,0 +1,327 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          ],
+          "name": "minecraft:elytra",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_block",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:packed_ice",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 30
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "type": "minecraft:constant",
+                  "value": 3
+                }
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          ],
+          "name": "minecraft:netherite_sword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 30
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "type": "minecraft:constant",
+                  "value": 3
+                },
+                "minecraft:efficiency": {
+                  "type": "minecraft:constant",
+                  "value": 3
+                }
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          ],
+          "name": "minecraft:netherite_axe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 30
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": {
+                  "type": "minecraft:constant",
+                  "value": 2
+                },
+                "minecraft:efficiency": {
+                  "type": "minecraft:constant",
+                  "value": 3
+                }
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1
+              }
+            }
+          ],
+          "name": "minecraft:netherite_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ad_astra:tier_4_rocket",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ad_astra:tier_1_rover",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 15.0,
+        "min": 9.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": {
+                  "type": "minecraft:constant",
+                  "value": 10
+                },
+                "minecraft:efficiency": {
+                  "type": "minecraft:constant",
+                  "value": 10
+                }
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.01,
+                "max": 0.1
+              }
+            }
+          ],
+          "name": "minecraft:netherite_pickaxe",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "type": "minecraft:constant",
+                  "value": 10
+                }
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.01,
+                "max": 0.1
+              }
+            }
+          ],
+          "name": "minecraft:netherite_sword",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:smite": {
+                  "type": "minecraft:constant",
+                  "value": 10
+                },
+                "minecraft:fire_aspect": {
+                  "type": "minecraft:constant",
+                  "value": 5
+                }
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.01,
+                "max": 0.1
+              }
+            }
+          ],
+          "name": "minecraft:netherite_sword",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:impaling": {
+                  "type": "minecraft:constant",
+                  "value": 10
+                },
+                "minecraft:riptide": {
+                  "type": "minecraft:constant",
+                  "value": 5
+                }
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.01,
+                "max": 0.1
+              }
+            }
+          ],
+          "name": "minecraft:trident",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:power": {
+                  "type": "minecraft:constant",
+                  "value": 10
+                },
+                "minecraft:punch": {
+                  "type": "minecraft:constant",
+                  "value": 3
+                }
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.01,
+                "max": 0.1
+              }
+            }
+          ],
+          "name": "minecraft:bow",
+          "weight": 10
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "perspatium:chests/ice_peak/5"
+}

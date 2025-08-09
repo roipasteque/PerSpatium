@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "perspatium:block/rt_black_concrete",
+    "side": "perspatium:block/rt_black_concrete",
+    "top": "perspatium:block/rt_black_concrete"
+  }
+}

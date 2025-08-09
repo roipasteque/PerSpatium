@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "perspatium:block/rt_light_projector_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "perspatium:block/rt_light_projector"
+    },
+    "axis=z": {
+      "model": "perspatium:block/rt_light_projector_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "perspatium:block/sf_stone_pillar_top",
+    "side": "perspatium:block/sf_stone_pillar"
+  }
+}

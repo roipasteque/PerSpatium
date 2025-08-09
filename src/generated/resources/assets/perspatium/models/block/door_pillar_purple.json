@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "perspatium:block/door_pillar_purple_top",
+    "side": "perspatium:block/door_pillar_purple"
+  }
+}

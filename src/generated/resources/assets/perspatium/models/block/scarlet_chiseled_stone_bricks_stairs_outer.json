@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "perspatium:block/scarlet_chiseled_stone_bricks",
+    "side": "perspatium:block/scarlet_chiseled_stone_bricks",
+    "top": "perspatium:block/scarlet_chiseled_stone_bricks"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "perspatium:mirror_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 6134,
+
+    "spacing": 36,
+
+    "separation": 20,
+
+    "type": "minecraft:random_spread"
+  }
+}

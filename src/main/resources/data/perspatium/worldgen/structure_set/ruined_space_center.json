@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "perspatium:ruined_space_center",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 344173289,
+
+    "spacing": 16,
+
+    "separation": 8,
+
+    "type": "minecraft:random_spread"
+  }
+}

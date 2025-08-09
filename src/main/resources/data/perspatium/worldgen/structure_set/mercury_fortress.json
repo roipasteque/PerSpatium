@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "perspatium:mercury_fortress",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 544134884,
+
+    "frequency": 0.5,
+
+    "spacing": 64,
+
+    "separation": 48,
+
+    "type": "minecraft:random_spread"
+  }
+}

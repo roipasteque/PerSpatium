@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "perspatium:moon_grave",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 154103416,
+
+    "spacing": 12,
+
+    "separation": 10,
+
+    "type": "minecraft:random_spread"
+  }
+}

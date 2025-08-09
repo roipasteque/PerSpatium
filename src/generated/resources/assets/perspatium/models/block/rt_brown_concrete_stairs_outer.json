@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "perspatium:block/rt_brown_concrete",
+    "side": "perspatium:block/rt_brown_concrete",
+    "top": "perspatium:block/rt_brown_concrete"
+  }
+}

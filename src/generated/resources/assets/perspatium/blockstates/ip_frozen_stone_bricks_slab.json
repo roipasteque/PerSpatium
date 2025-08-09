@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "perspatium:block/ip_frozen_stone_bricks_slab"
+    },
+    "type=double": {
+      "model": "perspatium:block/ip_frozen_stone_bricks"
+    },
+    "type=top": {
+      "model": "perspatium:block/ip_frozen_stone_bricks_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "perspatium:block/rt_brown_concrete_slab"
+    },
+    "type=double": {
+      "model": "perspatium:block/rt_brown_concrete"
+    },
+    "type=top": {
+      "model": "perspatium:block/rt_brown_concrete_slab_top"
+    }
+  }
+}

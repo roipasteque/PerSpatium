@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "perspatium:block/blood_planks",
+    "side": "perspatium:block/blood_planks",
+    "top": "perspatium:block/blood_planks"
+  }
+}

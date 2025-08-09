@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "perspatium:block/ip_polished_stone_slab"
+    },
+    "type=double": {
+      "model": "perspatium:block/ip_polished_stone"
+    },
+    "type=top": {
+      "model": "perspatium:block/ip_polished_stone_slab_top"
+    }
+  }
+}

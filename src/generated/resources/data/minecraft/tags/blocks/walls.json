@@ -1,0 +1,13 @@
+{
+  "values": [
+    "perspatium:mirror_bricks_wall",
+    "perspatium:blood_bricks_wall",
+    "perspatium:sf_stone_wall",
+    "perspatium:sf_cobblestone_wall",
+    "perspatium:ip_small_stone_bricks_wall",
+    "perspatium:ip_frozen_stone_bricks_wall",
+    "perspatium:scarlet_stone_bricks_wall",
+    "perspatium:rt_white_metal_wall",
+    "perspatium:rt_black_metal_wall"
+  ]
+}

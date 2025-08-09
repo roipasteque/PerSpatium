@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "perspatium:block/rt_glowing_brown_concrete"
+  }
+}

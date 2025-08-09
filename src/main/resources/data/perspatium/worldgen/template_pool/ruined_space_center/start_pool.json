@@ -1,0 +1,22 @@
+{
+  "name": "perspatium:ruined_space_center/start_pool",
+
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+
+      "weight": 2,
+      "element": {
+
+        "location": "perspatium:ruined_space_center",
+
+        "processors": "minecraft:empty",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

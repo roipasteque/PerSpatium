@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "perspatium:stone_fortress",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 244973483,
+
+    "spacing": 48,
+
+    "separation": 32,
+
+    "type": "minecraft:random_spread"
+  }
+}

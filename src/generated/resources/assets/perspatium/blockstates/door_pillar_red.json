@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "perspatium:block/door_pillar_red_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "perspatium:block/door_pillar_red"
+    },
+    "axis=z": {
+      "model": "perspatium:block/door_pillar_red_horizontal",
+      "x": 90
+    }
+  }
+}

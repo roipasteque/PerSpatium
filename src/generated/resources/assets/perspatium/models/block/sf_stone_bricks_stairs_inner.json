@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "perspatium:block/sf_stone_bricks",
+    "side": "perspatium:block/sf_stone_bricks",
+    "top": "perspatium:block/sf_stone_bricks"
+  }
+}

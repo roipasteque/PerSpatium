@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "perspatium:block/ip_cobblestone",
+    "side": "perspatium:block/ip_cobblestone",
+    "top": "perspatium:block/ip_cobblestone"
+  }
+}

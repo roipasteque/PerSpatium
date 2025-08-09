@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "perspatium:block/rt_white_metal",
+    "side": "perspatium:block/rt_white_metal",
+    "top": "perspatium:block/rt_white_metal"
+  }
+}

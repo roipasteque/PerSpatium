@@ -1,0 +1,641 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 32.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 40.0,
+                "min": 15.0
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:bow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 40.0,
+                "min": 15.0
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 40.0,
+                "min": 15.0
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:diamond_sword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 40.0,
+                "min": 15.0
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:diamond_axe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 40.0,
+                "min": 15.0
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 40.0,
+                "min": 15.0
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:diamond_shovel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 40.0,
+                "min": 15.0
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:diamond_hoe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 36.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_nugget",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:raw_iron",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:chain",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:honey_bottle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_carrot",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 5
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 18.0,
+        "min": 12.0
+      }
+    },
+    {
+    "entries": [
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:efficiency": {
+                "type": "minecraft:constant",
+                "value": 6
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:protection": {
+                "type": "minecraft:constant",
+                "value": 5
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:efficiency": {
+                "type": "minecraft:constant",
+                "value": 6
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:bane_of_arthropods": {
+                "type": "minecraft:constant",
+                "value": 6
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:blast_protection": {
+                "type": "minecraft:constant",
+                "value": 5
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:feather_falling": {
+                "type": "minecraft:constant",
+                "value": 5
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:fire_protection": {
+                "type": "minecraft:constant",
+                "value": 5
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:fortune": {
+                "type": "minecraft:constant",
+                "value": 4
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:knockback": {
+                "type": "minecraft:constant",
+                "value": 3
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:looting": {
+                "type": "minecraft:constant",
+                "value": 4
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:power": {
+                "type": "minecraft:constant",
+                "value": 6
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:projectile_protection": {
+                "type": "minecraft:constant",
+                "value": 5
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:punch": {
+                "type": "minecraft:constant",
+                "value": 3
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:quick_charge": {
+                "type": "minecraft:constant",
+                "value": 4
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:smite": {
+                "type": "minecraft:constant",
+                "value": 6
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      },
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:unbreaking": {
+                "type": "minecraft:constant",
+                "value": 4
+              }
+            },
+            "add": true
+          }
+        ],
+        "name": "minecraft:book",
+        "weight": 1
+      }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "perspatium:chests/stone_fortress/5"
+}

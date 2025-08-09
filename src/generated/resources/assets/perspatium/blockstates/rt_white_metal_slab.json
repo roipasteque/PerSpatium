@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "perspatium:block/rt_white_metal_slab"
+    },
+    "type=double": {
+      "model": "perspatium:block/rt_white_metal"
+    },
+    "type=top": {
+      "model": "perspatium:block/rt_white_metal_slab_top"
+    }
+  }
+}

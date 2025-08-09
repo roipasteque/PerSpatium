@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:jigsaw",
+
+  "start_pool": "perspatium:mirror_temple/start_pool",
+
+  "size": 1,
+
+  "max_distance_from_center": 10,
+
+  "biomes": "#perspatium:has_structure/mirror_temple",
+
+  "step": "surface_structures",
+
+  "terrain_adaptation": "none",
+
+  "start_height": {
+    "absolute": -64
+  },
+
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+
+  "use_expansion_hack": false,
+
+  "spawn_overrides": {}
+}

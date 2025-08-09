@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "perspatium:moon_crawler_room",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 314103451,
+
+    "spacing": 10,
+
+    "separation": 8,
+
+    "type": "minecraft:random_spread"
+  }
+}
